@@ -34,7 +34,7 @@ var
 
 		// The jQuery object is actually just the init constructor 'enhanced'
 		// Need init if jQuery is called (just allow error to be thrown if not included)
-		return new jQuery.fn.init( selector, context );
+		return new jQuery.fn.init( selector, context ); //返回一个jquery实例 自动包含this 返回的是jquery原型的init方法
 	},
 
 	// Support: Android <=4.0 only
