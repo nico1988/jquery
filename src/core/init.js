@@ -20,8 +20,7 @@ var rootjQuery,
 	rquickExpr = /^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]+))$/,
 
 	init = jQuery.fn.init = function( selector, context, root ) {
-		// 为什么这里和一般的构造函数的方法不一样
-		var match, elem;
+		var match, elem; // 为什么这里和一般的构造函数的方法不一样
 
 		// HANDLE: $(""), $(null), $(undefined), $(false)
 		if ( !selector ) {
